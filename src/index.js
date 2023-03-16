@@ -1,17 +1,26 @@
-import "./styles.css";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import App from "./App";
-//IMPORT BrowserRouter and rename it to Router
-import { BrowserRouter as Router } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './styles.css'
+import App from './pages/App/App';
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-const root = createRoot(document.getElementById("root"))
-
-//Wrap the App Component with the Router component to enable the router features
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
-    <Router>
-      <App />
-    </Router>
-  </StrictMode>
+  <React.StrictMode>
+    <App />
+    <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<Home />}>
+                    </Route>
+                    <Route path='/about' element={<About />}>
+                    </Route>
+                    <Route path='/contact' element={<Contact />}>
+                    </Route>
+                </Routes>
+            </BrowserRouter>
+  </React.StrictMode>
+
 );
