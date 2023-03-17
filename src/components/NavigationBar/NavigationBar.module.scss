@@ -1,0 +1,34 @@
+.nav {
+    height: 150px;
+    background-color: white;
+    display: flex;
+}
+
+.tabs {
+    width: 55%;
+    float: right;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    display: flex;
+}
+
+.logo {
+    width: 45%;
+    float: left;
+}
+
+.img {
+    max-width: 250px;
+}
+
+/*
+nav= entire navigation
+tabs= full links div
+link= each individual link
+*/
