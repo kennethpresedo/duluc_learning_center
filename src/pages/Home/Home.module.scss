@@ -1,3 +1,21 @@
 .home{
-    background-color: beige;
+    font-size: 2vw;
+}
+.carousel{
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    height: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.blurb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
 }

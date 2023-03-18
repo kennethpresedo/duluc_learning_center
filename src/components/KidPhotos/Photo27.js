@@ -2,6 +2,6 @@ import styles from './Photo.module.scss'
 
 export default function Photo3(){
     return(
-        <img className={styles.photo} src="https://i.imgur.com/eGgXhGN.jpg" alt=''/>
+        <img className={styles.photo} src="https://i.imgur.com/tKvWPn3.jpg" alt=''/>
     )
 }
