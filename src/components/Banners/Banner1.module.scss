@@ -1,0 +1,45 @@
+.banner1 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: white;
+}
+
+.span1 {
+    width: 50%;
+    float: left;
+    background-image: url('https://i.imgur.com/mkpaQjK.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span2 {
+    width: 50%;
+    float: right;
+    background-image: url('https://i.imgur.com/aJvsM1Y.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.words1, .words2{
+    padding: 5%;
+}
