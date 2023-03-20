@@ -1,0 +1,24 @@
+.founder{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    font-size: 1.7vw;
+    padding-top: 3%;
+}
+.word{
+    font-size: 4vw;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+// .bioContainer{
+//     background-color: white;
+// }
+
+.bio{
+    word-wrap: break-word;
+    height: fit-content; 
+}
