@@ -1,0 +1,15 @@
+.serviceBanner{
+    height: 350px;
+    background-image: url('https://i.imgur.com/8K75zgH.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DM Serif Display', serif;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.words{
+    color: white;
+}

@@ -1,0 +1,43 @@
+.tutoring {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    color: white;
+    // column-gap: .5%;
+    background-color: beige;
+    //padding-top: 5%;
+    //padding-bottom: 2%;
+}
+
+.span1 {
+    width: 50%;
+    float: left;
+    background-color: #f05251;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    font-size: 4vw;
+    margin-top: auto;
+    padding-top: 2%;
+}
+
+.span2 {
+    width: 50%;
+    float: right;
+    background-color: #a787a4;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    font-size: 4vw;
+    margin-top: auto;
+    padding-top: 2%;
+}
+
+.words1,
+.words2 {
+    padding: 5%;
+    font-size: 1.8vw;
+    text-align: justify;
+}

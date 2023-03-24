@@ -1,17 +1,14 @@
-import styles from './About.module.scss'
 import React from "react"
 import NavigationBar from '../../components/NavigationBar/NavigationBar'
 import Founder from '../../components/Founder/Founder'
 import Footer from '../../components/Footer/Footer'
 
 export default function About() {
-    return(
+    return (
         <>
-        <NavigationBar />
-        <div className={styles.about}>
+            <NavigationBar />
             <Founder />
-        </div>
-        <Footer />
+            <Footer />
         </>
     )
 }
