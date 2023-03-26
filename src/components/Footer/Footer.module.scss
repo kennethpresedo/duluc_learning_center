@@ -1,7 +1,9 @@
 .footer {
-    height: fit-content;
-    background-color: #2eada9;
+    min-height: 10vw;
+    background-color: beige;
     display: flex;
+    margin-bottom: auto;
+    
 }
 
 .tabs {
@@ -15,7 +17,7 @@
 .link {
     text-decoration: none;
     display: flex;
-    font-size: 22px;
+    font-size: 1.5vw;
 }
 
 .instagram, .facebook{
@@ -24,7 +26,7 @@
     align-items: center;
 }
 .igLogo, .fbLogo{
-    max-width: 75px;
+    max-width: 3vw;
     height: auto;
 }
 
@@ -33,6 +35,6 @@
     float: left;
 }
 .DLCimg {
-    max-width: 350px;
+    max-width: 19vw;
     height: auto;
 }

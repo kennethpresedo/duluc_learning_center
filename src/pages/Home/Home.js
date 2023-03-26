@@ -8,19 +8,22 @@ import Banner2 from '../../components/Banners/Banner2'
 import Thumbnails from '../../components/Thumbnails/Thumbnails'
 import Footer from "../../components/Footer/Footer"
 import Bar from "../../components/Bar/Bar"
+import MailChimpForm from "../../components/Mailchimp/MailChimpForm"
 
 export default function Home() {
     return (
         <>
             <NavigationBar />
-            <Bar />
+            <MailChimpForm />
             <Intro />
             <Development />
+            <Bar />
             <Banner1 />
             <Banner2 />
             <Bar />
             <Services />
             <Thumbnails />
+            <MailChimpForm />
             <Footer />
         </>
     )

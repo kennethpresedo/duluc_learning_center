@@ -1,5 +1,5 @@
 .nav {
-    height: 100px;
+    height: 6vw;
     background-color: beige;
     display: flex;
 }
@@ -16,7 +16,7 @@
 .link {
     text-decoration: none;
     display: flex;
-    font-size: 22px;
+    font-size: 1.5vw;
 }
 
 .logo {
@@ -25,16 +25,10 @@
 }
 
 .img {
-    max-width: 250px;
+    max-width: 14vw;
     margin-top: -3%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-
-/*
-nav= entire navigation
-tabs= full links div
-link= each individual link
-*/
