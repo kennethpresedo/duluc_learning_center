@@ -9,6 +9,7 @@ import Thumbnails from '../../components/Thumbnails/Thumbnails'
 import Footer from "../../components/Footer/Footer"
 import Bar from "../../components/Bar/Bar"
 import MailChimpForm from "../../components/Mailchimp/MailChimpForm"
+import Testimonials from "../../components/Testimonials/Testimonials"
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <NavigationBar />
             <MailChimpForm />
             <Intro />
+            <Bar />
             <Development />
             <Bar />
             <Banner1 />
@@ -23,6 +25,8 @@ export default function Home() {
             <Bar />
             <Services />
             <Thumbnails />
+            <Bar />
+            <Testimonials />
             <MailChimpForm />
             <Footer />
         </>
