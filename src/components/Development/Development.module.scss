@@ -1,7 +1,7 @@
 .development{
-    background-color: beige;
-    color: black;
-    height: 12.7vw;
+    background-color: #9e7e95;
+    color: beige;
+    height: 15vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,13 +10,10 @@
 }
 .header{
     text-align: center;
-    font-size: 4vw;
+    font-size: 5.5vw;
 }
-.click{
-    padding-left: 2%;
-    text-align: center;
-    word-wrap: break-word;
-    text-align: justify;
+ul{
+    margin: 0;
 }
 .link{
     text-decoration: none;

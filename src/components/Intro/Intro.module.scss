@@ -1,23 +1,19 @@
 .intro{
-    height: 11vw;
+    height: 21vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding: 5%;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: beige;
     font-size: 2vw;
-    background-image: url('https://i.imgur.com/f2tyEAP_d.jpg?maxwidth=520&shape=thumb&fidelity=high');
+    background-image: url('https://i.imgur.com/i8Rsrx2.jpg');
     background-size: cover;
+    background-position: 0% 25%;
+    padding-bottom: 1vw;
 }
 .mission{
     text-align: center;
-    margin-bottom: -2%;
-    padding-top: 2%;
-    font-size: 3vw;
-    //margin-bottom: auto;
+    font-size: 4.5vw;
 }
 .missionStatement{
     text-align: center;
-    margin-top: -2%;
-    //margin-bottom: auto;
 }
