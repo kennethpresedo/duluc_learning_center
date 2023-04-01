@@ -5,7 +5,7 @@ export default function Banner1() {
         <>
             <div className={styles.banner1}>
                 <span className={styles.span1}><p className={styles.words1}>High-quality, individualized tutoring.</p></span>
-                <span className={styles.span2}><p className={styles.words2}>We support student learning and growth.</p></span>
+                <span className={styles.span2}><p className={styles.words2}>Supporting student learning and growth.</p></span>
             </div>
         </>
     )

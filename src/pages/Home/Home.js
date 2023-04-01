@@ -19,7 +19,6 @@ export default function Home() {
             <Intro />
             <Bar />
             <Development />
-            <Bar />
             <Banner1 />
             <Banner2 />
             <Bar />
