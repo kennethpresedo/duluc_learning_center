@@ -1,6 +1,46 @@
 .services{
-    background-image: url('https://i.imgur.com/8jtFMiN.jpg');
-    height: 27vw;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 29vw;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 5%;
+}
+.smallGroup{
+    width: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ccbd88;
+    margin-bottom: auto;
+}
+.smallGroupPic{
+    width: 21vw;
+}
+.oneOnOne{
+    width: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #a08e9d;
+    margin-bottom: auto;
+}
+.oneOnOnePic{
+    width: 21vw;
+}
+.homeworkClub{
+    width: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #d65142;
+    margin-bottom: auto;
+}
+.homeworkClubPic{
+    width: 21vw;
 }
