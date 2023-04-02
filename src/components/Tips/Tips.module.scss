@@ -1,0 +1,34 @@
+.tips{
+    height: 25vw;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+.homeworkSpan{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: red;
+}
+.testSpan{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+
+.homeworkButton{
+    background-color: beige;
+    height: 5vw;
+    width: 15vw;
+}
+.testButton{
+    background-color: beige;
+    height: 5vw;
+    width: 15vw;
+}

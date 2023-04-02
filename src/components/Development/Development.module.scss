@@ -1,19 +1,30 @@
 .development{
-    color: #9e7e95;
     background-color: beige;
-    height: 15vw;
+    color: #668b9b;
+    height: 25vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5%;
-    font-size: 1.7vw;
+    flex-direction: column;
+    font-size: 1.5vw;
 }
 .header{
     text-align: center;
-    font-size: 5.5vw;
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 ul{
-    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.ul1, .ul3{
+    color: #668b9b;;
+}
+.ul2, .ul4{
+    color:#668b9b;
+    ;
 }
 .link{
     text-decoration: none;
