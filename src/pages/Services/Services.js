@@ -15,6 +15,7 @@ export default function Services() {
             <Bar />
             <Tutoring />
             <Tips />
+            <Bar />
             <Footer />
         </>
     )

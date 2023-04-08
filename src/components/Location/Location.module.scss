@@ -1,0 +1,25 @@
+.location{
+    height: 4vw;
+    color: beige;
+    font-size: 1.8vw;
+}
+
+.service{
+    width: 25%;
+    float: left;
+    background-color: #548494;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.towns{
+    width: 75%;
+    background-color: #0f4764;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

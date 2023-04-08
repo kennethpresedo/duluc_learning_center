@@ -12,10 +12,10 @@ export default function NavigationBar() {
                 </span>
 
                 <span className={styles.tabs}>
-                    <a className={styles.link} href="/">Home</a> &nbsp;
-                    <a className={styles.link} href="/about">About Us</a> &nbsp;
-                    <a className={styles.link} href="/services">Our Services</a>&nbsp;
-                    <a className={styles.link} href="/contact">Contact Us</a>
+                    <a className={styles.linkHome} href="/">Home</a> &nbsp;
+                    <a className={styles.linkAbout} href="/about">About Us</a> &nbsp;
+                    <a className={styles.linkServices} href="/services">Our Services</a>&nbsp;
+                    <a className={styles.linkContact} href="/contact">Contact Us</a>
                   
                 </span>
 

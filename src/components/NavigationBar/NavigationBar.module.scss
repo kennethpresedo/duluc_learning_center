@@ -13,11 +13,56 @@
     justify-content: space-evenly;
 }
 
-.link {
+.linkHome {
     text-decoration: none;
     display: flex;
     font-size: 1.5vw;
+    color: #668b9b;
 }
+.linkAbout {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.5vw;
+    color: #668b9b;
+}
+.linkServices {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.5vw;
+    color: #668b9b;
+}
+.linkContact {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.5vw;
+    color: #668b9b;
+}
+
+.linkHome:hover {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.7vw;
+    color: #a787a4;
+}
+.linkAbout:hover {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.7vw;
+    color: #a787a4;
+}
+.linkServices:hover {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.7vw;
+    color: #a787a4;
+}
+.linkContact:hover {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.7vw;
+    color: #a787a4;
+}
+
 
 .logo {
     width: 45%;

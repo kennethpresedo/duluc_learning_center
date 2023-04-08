@@ -5,7 +5,7 @@ export default function ServiceBanner(){
     return(
         <>
         <div className={styles.serviceBanner}>
-            <span className={styles.words}>What We Offer.</span>
+            <span className={styles.words}>What We Offer</span>
         </div>
         <Services />
         </>

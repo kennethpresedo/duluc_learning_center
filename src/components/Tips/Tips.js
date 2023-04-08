@@ -4,16 +4,16 @@ import Test from './Test'
 import styles from './Tips.module.scss'
 
 export default function Tips() {
-    const [blankBanner, showHomework] = useState(true);
+    const [blankBanner, showHomework] = useState(false); 
     const [blankBannerB, showTest] = useState(false);
 
     const handleClickHomework = e => {
         showHomework(currentHomework => !currentHomework)
-        showTest(false)
+     
     }
     const handleClickTest = e => {
         showTest(currentTest => !currentTest)
-        showHomework(false)
+        
 
     }
     return (
@@ -21,12 +21,12 @@ export default function Tips() {
             <div className={styles.tips}>
 
                 <span className={styles.homeworkSpan}>
-                    <button className={styles.homeworkButton} onClick={handleClickHomework}>Click for Homework Tips</button><br />
+                    <button className={styles.homeworkButton} onClick={handleClickHomework}>Homework Tips</button><br />
                     {blankBanner && <Homework />}
                 </span>
 
                 <span className={styles.testSpan}>
-                    <button className={styles.testButton} onClick={handleClickTest}>Click for Test Tips</button><br />
+                    <button className={styles.testButton} onClick={handleClickTest}>Test Tips</button><br />
                     {blankBannerB && <Test />}
                 </span>
 

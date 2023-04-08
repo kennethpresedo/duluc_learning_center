@@ -1,23 +1,24 @@
 .footer {
-    min-height: 10vw;
+    min-height: 6vw;
     background-color: beige;
     display: flex;
     margin-bottom: auto;
-    
+    justify-content: space-between;
 }
 
-.tabs {
-    width: 45%;
-    float: right;
+.connect{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialsContainer{
     display: flex;
     align-items: center;
-    text-align: end;
-    justify-content: space-evenly;
-}
-.link {
-    text-decoration: none;
-    display: flex;
-    font-size: 1.5vw;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 5vw;
 }
 
 .instagram, .facebook{
@@ -25,16 +26,27 @@
     justify-content: center;
     align-items: center;
 }
-.igLogo, .fbLogo{
-    max-width: 3vw;
+.fbLogo{
+    max-width: 3.1vw;
+    height: auto;
+}
+.igLogo{
+    max-width: 3.3vw;
     height: auto;
 }
 
-.DLClogo {
-    width: 45%;
-    float: left;
+.fbLogo:hover{
+    opacity: .8;
+    cursor: pointer;
 }
+.igLogo:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+
 .DLCimg {
-    max-width: 19vw;
+    max-width: 12vw;
     height: auto;
+    margin-left: 3vw;
 }

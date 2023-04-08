@@ -10,6 +10,7 @@ import Footer from "../../components/Footer/Footer"
 import Bar from "../../components/Bar/Bar"
 import MailChimpForm from "../../components/Mailchimp/MailChimpForm"
 import Testimonials from "../../components/Testimonials/Testimonials"
+import Location from "../../components/Location/Location"
 
 export default function Home() {
     return (
@@ -25,6 +26,7 @@ export default function Home() {
             <Thumbnails />
             <Bar />
             <Testimonials />
+            <Location />
             <MailChimpForm />
             <Footer />
         </>
