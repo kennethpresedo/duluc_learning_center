@@ -1,0 +1,112 @@
+.development{
+    background-color: beige;
+    color: #668b9b;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul{
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.ul1, .ul3{
+    color: #668b9b;
+}
+.ul2, .ul4{
+    color:#668b9b;
+}
+.link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .development{
+       height: fit-content;
+       font-size: 4.5vw;
+       background-color: tan;
+    }
+    .header{
+        font-size: 8vw;        
+        background-color: #e46b58;
+        border: 4vw solid beige;
+        width: 80%;        
+        height: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: beige;
+        margin-top: 3vw;
+        padding: 1vw;
+        margin-bottom: 3vw;
+        text-align: center;
+        flex-direction: column;
+    }
+    .click{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .ul1{
+        border: 4vw solid beige;
+        width: 80%; 
+        background-color: #fc945c;
+        height: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: beige;
+        padding: 1vw;
+        margin-bottom: 3vw;
+    }
+    .ul2{
+        border: 4vw solid beige;
+        width: 80%; 
+        background-color: #f6c48e;
+        height: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: beige;
+        padding: 1vw;
+        margin-bottom: 3vw;
+    }
+    .ul3{
+        border: 4vw solid beige;
+        width: 80%; 
+        background-color:  #108698;
+        height: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: beige;
+        padding: 1vw;
+        margin-bottom: 3vw;
+    } 
+    .ul4{
+        border: 4vw solid beige;
+        width: 80%; 
+        background-color: #042054;
+        height: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: beige;
+        padding: 1vw;
+        margin-bottom: 3vw;
+    }
+ 
+}

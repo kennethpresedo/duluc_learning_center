@@ -1,0 +1,79 @@
+.words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    width: 65%;
+    background-color: #9bd6d1;
+    height: 10vw;
+    font-size: 2.8vw;
+    color: beige;
+}
+.words2{
+    margin-top: -2%;
+    font-size: 3.5vw;
+}
+.div{
+    height: 10vw;
+    background-color: #a787a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: justify;
+    color: beige;
+}
+.form{   
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.input{
+    height: 1.5vw;
+    width: 12vw;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    background-color: beige;
+    font-size: 1vw;
+    border-radius: 4%;
+    box-shadow: .28vw .3vw;
+}
+.button{
+    height: 2vw;
+    width: 40%;
+    align-self: center;
+    margin-top: 3%;
+    font-family: 'DM Serif Display', serif;
+    background-color: beige;
+    font-size: 1vw;
+    box-shadow: .3vw .2vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .words{
+        height: 15vw;
+        font-size: 5vw;
+    }
+    .words2{
+        font-size: 3.5vw;
+    }
+    .div{
+        height: 15vw;
+    }
+.input{
+    height: 2.5vw;
+    width: 26vw;
+    font-size: 2vw;
+
+}
+.button{
+    height: 3.2vw;
+    width: 40%;
+    font-size: 2vw;
+}
+}

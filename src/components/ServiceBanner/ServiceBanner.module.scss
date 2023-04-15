@@ -1,0 +1,29 @@
+.serviceBanner{
+    height: 20vw;
+    background-image: url('https://i.imgur.com/8K75zgH.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.words{
+    color: beige;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .serviceBanner{
+        height: 30vw;
+        font-size: 14vw;
+        display: flex;
+        align-items: end;
+    }
+    .words{
+        color: rgb(205, 145, 66);
+    }
+
+}

@@ -1,0 +1,81 @@
+.footer {
+    min-height: 6vw;
+    background-color: beige;
+    display: flex;
+    margin-bottom: auto;
+    justify-content: space-between;
+}
+
+
+.socialsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 5vw;
+}
+
+.instagram,
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fbLogo {
+    max-width: 3.1vw;
+    height: auto;
+}
+
+.igLogo {
+    max-width: 3.3vw;
+    height: auto;
+}
+
+.fbLogo:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.igLogo:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+.DLCimg {
+    max-width: 12vw;
+    height: auto;
+    margin-left: 3vw;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .footer{
+        height: 30vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .DLCimg {
+        max-width: 65vw;
+        height: auto;
+        padding-left: 2vw;
+    }
+
+    .fbLogo {
+        max-width: 10vw;
+    }
+
+    .igLogo {
+        max-width: 11vw;
+    }
+
+.socialsContainer {
+    padding-right: 10vw;
+    flex-direction: column;
+}
+}

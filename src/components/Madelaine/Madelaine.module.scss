@@ -1,0 +1,20 @@
+.madelaine{  
+    object-fit: cover;
+    width: 16vw;
+    height: 16vw;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .madelaine{  
+        object-fit: cover;
+        width: 50vw;
+        height: 50vw;
+        border-radius: 50%;
+        border: 3vw solid blanchedalmond;
+    }
+
+}

@@ -1,0 +1,96 @@
+.tips{
+    padding-top: 2vw;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.homeworkSpan{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 2vw;
+}
+.testSpan{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 2vw;
+}
+
+.homeworkButton{
+    font-family: 'DM Serif Display', serif;
+    background-image: url('https://i.imgur.com/9kzU8F7.png');
+    background-position: center;
+    background-size: contain;
+    border: .3vw solid #d65142;
+    font-size: 1.7vw;
+    color: yellow;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+}
+.testButton{
+    font-family: 'DM Serif Display', serif;
+    background-image: url('https://i.imgur.com/9kzU8F7.png');
+    background-position: center;
+    background-size: contain;
+    border: .3vw solid#d65142;
+    font-size: 1.9vw;
+    color: yellow;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+}
+
+.homeworkButton:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.testButton:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .tips{
+        padding-top: 5vw;
+    }
+
+    .homeworkButton, .testButton{
+    height: 40vw;
+    width: 40vw;
+    border: 1vw solid #d65142;
+    font-size: 5.5vw;
+    }
+    .testButton{
+        font-size: 6vw;
+    }
+
+    .homeworkSpan{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        width: 50%;
+        float: left;
+    }
+
+    .testSpan{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        width: 50%;
+        float: right;
+    }
+
+}

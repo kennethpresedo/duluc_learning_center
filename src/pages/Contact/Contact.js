@@ -1,7 +1,7 @@
 import styles from './Contact.module.scss'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import NavigationBar from '../../components/NavigationBar/NavigationBar'
+import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 

@@ -1,0 +1,40 @@
+.bar{
+    height: 5.1vw;
+    display: grid;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+}
+.column1{
+    background-color: #ffe071;
+    width: 100%;
+}
+.column2{
+    background-color: #f05251;
+    width: 100%;
+}
+.column3{
+    background-color: #9bd6d1;
+    width: 100%;
+}
+.column4{
+    background-color: #a787a4;
+    width: 100%;
+}
+.column5{
+    background-color: #cace6f;
+    width: 100%;
+}
+.column6{
+    background-color: #0d4760;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bar{
+        height: 9vw;
+    }
+
+}

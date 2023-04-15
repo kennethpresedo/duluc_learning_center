@@ -1,0 +1,49 @@
+.location{
+    height: 4vw;
+    color: beige;
+    font-size: 1.8vw;
+}
+
+.service{
+    width: 25%;
+    float: left;
+    background-color: #548494;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.towns{
+    width: 75%;
+    background-color: #0f4764;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .location{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        
+    }
+
+    .service{
+        width: 100%;
+        height: 8vw;
+        font-size: 5vw;
+    }
+
+    .towns{
+        text-align: center;
+        width: 100%;
+        font-size: 5vw;
+    }
+}
