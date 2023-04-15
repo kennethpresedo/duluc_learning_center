@@ -6,14 +6,8 @@
     justify-content: space-between;
 }
 
-.connect{
-    font-size: 2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.socialsContainer{
+.socialsContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,25 +15,29 @@
     margin-right: 5vw;
 }
 
-.instagram, .facebook{
+.instagram,
+.facebook {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.fbLogo{
+
+.fbLogo {
     max-width: 3.1vw;
     height: auto;
 }
-.igLogo{
+
+.igLogo {
     max-width: 3.3vw;
     height: auto;
 }
 
-.fbLogo:hover{
+.fbLogo:hover {
     opacity: .8;
     cursor: pointer;
 }
-.igLogo:hover{
+
+.igLogo:hover {
     opacity: .8;
     cursor: pointer;
 }
@@ -49,4 +47,35 @@
     max-width: 12vw;
     height: auto;
     margin-left: 3vw;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .footer{
+        height: 30vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .DLCimg {
+        max-width: 65vw;
+        height: auto;
+        padding-left: 2vw;
+    }
+
+    .fbLogo {
+        max-width: 10vw;
+    }
+
+    .igLogo {
+        max-width: 11vw;
+    }
+
+.socialsContainer {
+    padding-right: 10vw;
+    flex-direction: column;
+}
 }

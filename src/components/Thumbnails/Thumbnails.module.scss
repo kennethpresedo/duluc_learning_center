@@ -14,3 +14,24 @@
     padding-right: 5%;
 }
 
+
+@media only screen and (max-width: 600px) {
+
+    .thumbnails {
+        height: fit-content;
+        background-color: #bfe6e1;
+        display: grid;
+        align-self: center;
+        justify-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, 2fr);
+        grid-gap: 0;
+        row-gap: 2vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+}
+

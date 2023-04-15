@@ -44,3 +44,53 @@
 .homeworkClubPic{
     width: 21vw;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .services{
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 8vw;
+        padding-top: 8vw;
+    }    
+    .smallGroup{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #ccbd88;
+        margin-bottom: auto;
+    }
+    .smallGroupPic{
+        width: 30vw;
+    }
+
+    .oneOnOne{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #a08e9d;
+        margin-bottom: auto;
+    }
+    .oneOnOnePic{
+        width: 30vw;
+    }
+
+    .homeworkClub{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #d65142;
+        margin-bottom: auto;
+    }
+    .homeworkClubPic{
+        width: 30vw;
+    }
+}

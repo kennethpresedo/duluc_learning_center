@@ -30,3 +30,11 @@
     background-color: #0d4760;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .bar{
+        height: 9vw;
+    }
+
+}

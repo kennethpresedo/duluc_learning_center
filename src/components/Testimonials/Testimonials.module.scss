@@ -11,3 +11,21 @@
     width: 35vw;
     padding-bottom: 3%;
 }
+
+@media only screen and (max-width: 600px) {
+
+
+.testimonials{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 6%;
+}
+.img1{
+    width: 80vw;
+    padding-bottom: 6%;
+}
+
+}

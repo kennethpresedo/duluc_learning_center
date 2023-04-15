@@ -2,3 +2,10 @@
     max-width: 21vw;
     height: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .photo{
+    max-width: 44vw;
+    height: auto;
+    }
+}

@@ -56,3 +56,41 @@
     opacity: .8;
     cursor: pointer;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .tips{
+        padding-top: 5vw;
+    }
+
+    .homeworkButton, .testButton{
+    height: 40vw;
+    width: 40vw;
+    border: 1vw solid #d65142;
+    font-size: 5.5vw;
+    }
+    .testButton{
+        font-size: 6vw;
+    }
+
+    .homeworkSpan{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        width: 50%;
+        float: left;
+    }
+
+    .testSpan{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        width: 50%;
+        float: right;
+    }
+
+}
