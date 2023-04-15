@@ -19,18 +19,21 @@
     font-size: 1.5vw;
     color: #668b9b;
 }
+
 .linkAbout {
     text-decoration: none;
     display: flex;
     font-size: 1.5vw;
     color: #668b9b;
 }
+
 .linkServices {
     text-decoration: none;
     display: flex;
     font-size: 1.5vw;
     color: #668b9b;
 }
+
 .linkContact {
     text-decoration: none;
     display: flex;
@@ -44,18 +47,21 @@
     font-size: 1.7vw;
     color: #a787a4;
 }
+
 .linkAbout:hover {
     text-decoration: none;
     display: flex;
     font-size: 1.7vw;
     color: #a787a4;
 }
+
 .linkServices:hover {
     text-decoration: none;
     display: flex;
     font-size: 1.7vw;
     color: #a787a4;
 }
+
 .linkContact:hover {
     text-decoration: none;
     display: flex;
@@ -76,4 +82,72 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav {
+        height: 15vw;
+        background-color: beige;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tabs {
+        float: right; 
+        width: 60%;         
+        display: grid;
+        justify-items: center;
+        align-self: center;
+        grid-template-columns:  auto auto auto auto;
+        margin: 0;
+       
+    }
+
+    .linkHome {
+        font-size: 4.2vw;
+    }
+
+    .linkAbout {
+        font-size: 4.2vw;
+    }
+
+    .linkServices {
+        font-size: 4.2vw;
+    }
+
+    .linkContact {
+        font-size: 4.2vw;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        float: left;
+    }
+
+    .img {        
+        max-width: 40vw;
+        height: auto;
+        margin-top: 1vw;
+    }
+
+    .linkHome:hover {
+        font-size: 4vw;
+    }
+
+    .linkAbout:hover {
+        font-size: 4vw;
+    }
+
+    .linkServices:hover {
+        font-size: 4vw;
+    }
+
+    .linkContact:hover {
+        font-size: 4vw;
+    }
 }

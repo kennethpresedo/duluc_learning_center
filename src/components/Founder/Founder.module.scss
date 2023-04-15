@@ -21,3 +21,31 @@
     height: fit-content;
     color: #a787a4;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .founder{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        margin-top: 4vw;
+    }
+    .word{
+        font-size: 7.5vw;
+        margin-top: 6vw;
+        padding-bottom: 6vw;
+        color: #a787a4;
+    }
+    
+    .bioContainer{
+        color: #a787a4;
+        font-size: 5.5vw;
+        text-align: justify;
+    }
+
+
+}

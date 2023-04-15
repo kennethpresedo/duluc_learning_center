@@ -38,3 +38,50 @@
     font-size: 1.8vw;
     text-align: justify;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .tutoring {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: tan;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .span2 {
+        height: fit-content;
+        width: 100%;
+        font-size: 9vw;
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
+        color: blanchedalmond;
+        padding-top: 5vw;
+    }
+
+    .span1 {
+        height: fit-content;
+        width: 100%;
+        font-size: 9vw;
+        margin-bottom: 2.5vw;
+        color: blanchedalmond;
+        padding-top: 5vw;
+    }
+
+
+    .words1,
+    .words2 {
+        word-break: keep-all;
+        text-align: center;
+        margin-top: -2vw;
+        font-size: 5.5vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        color: beige;
+
+    }
+}

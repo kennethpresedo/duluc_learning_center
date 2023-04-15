@@ -51,3 +51,29 @@
     font-size: 1vw;
     box-shadow: .3vw .2vw;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .words{
+        height: 15vw;
+        font-size: 5vw;
+    }
+    .words2{
+        font-size: 3.5vw;
+    }
+    .div{
+        height: 15vw;
+    }
+.input{
+    height: 2.5vw;
+    width: 26vw;
+    font-size: 2vw;
+
+}
+.button{
+    height: 3.2vw;
+    width: 40%;
+    font-size: 2vw;
+}
+}

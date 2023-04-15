@@ -11,7 +11,6 @@ export default function Footer() {
                     </a>
                 </span>
 
-                {/* <span className={styles.connect}>Follow us on</span> */}
                 <span className={styles.socialsContainer}>
                 <span className={styles.instagram}>
                     <a href="https://instagram.com/duluclearning?igshid=MGU3ZTQzNzY="  target="_blank" rel="noopener noreferrer">

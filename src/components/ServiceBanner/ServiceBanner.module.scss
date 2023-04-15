@@ -13,3 +13,17 @@
 .words{
     color: beige;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .serviceBanner{
+        height: 30vw;
+        font-size: 14vw;
+        display: flex;
+        align-items: end;
+    }
+    .words{
+        color: rgb(205, 145, 66);
+    }
+
+}
