@@ -1,34 +1,113 @@
-
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'DM Serif Display', serif;
+    background-color: blanchedalmond;
+    height: 36vw;
+    text-decoration: none;
+}
 .formContainer {
-    position: relative;
-    left: 5%; 
-    width: 40%;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 50%;
+}
+.contactWays{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    float: right;
+    width: 50%;
+}
+.emailDiv {
+    background-color: #a8d0db;
+    height: 18vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 3vw;   
+    color: rgb(98, 76, 47);
+}
+.phoneDiv{
+    background-color: #7180ac;
+    height: 18vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;   
+    font-size: 3vw;  
+    color: blanchedalmond;
 }
 
 input, textarea {
     width: 100%;
-    margin-top: 2rem;
     border: none;
     border-bottom: 1px solid black;
+    height: 2vw;
+    font-family: 'DM Serif Display', serif;
 }
 
 .message {
-    height: 8rem;
+    height: 5vw;
 }
 
 .submit {
+    margin-top: 1.3vw;
     border: 1px solid black;
-    padding: 1rem;
     text-align: center;
     background-color: #A787A4;
     cursor: pointer;
+    font-size: 1.2vw;
+    font-family: 'DM Serif Display', serif;
+    color: blanchedalmond;
 }
 
 .submit:hover {
     opacity: 0.7;
 }
 
-.emailDiv {
-    
+label{
+    font-size: 1.5vw;
+    color: #A787A4;
+}
+.email{
+    color: rgb(98, 76, 47);
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.email:hover{
+    opacity: .7;
+}
+.phoneNumber{
+    font-size: 1.5vw;
+}
+.phoneIcon{
+    width: 5vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vw;
+    }
+    .contactWays{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+        width: 100%;
+    }
+
 }
