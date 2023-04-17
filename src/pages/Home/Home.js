@@ -16,6 +16,7 @@ export default function Home() {
     return (
         <>
             <NavigationBar />
+            <MailChimpForm />
             <Intro />
             <Bar />
             <Development />
@@ -27,7 +28,6 @@ export default function Home() {
             <Bar />
             <Testimonials />
             <Location />
-            <MailChimpForm />
             <Footer />
         </>
     )
