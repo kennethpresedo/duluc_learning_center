@@ -7,7 +7,7 @@ This is a site curated for a tutoring company in Miami, FL. Company owner allowe
 - Client requested to make site viewable and fully functional on mobile.
 
 ## `How was it built?`
-Full stack MERN Application. MongoDB, Express, React, NodeJS. SCSS and CSS used for styling
+Front-end app using React, NodeJS, SCSS and CSS used for styling
 
 
 ## `Viewable options`
