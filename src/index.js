@@ -16,11 +16,11 @@ root.render(
                 <Routes>
                     <Route path='/' element={<Home />}>
                     </Route>
-                    <Route path='/about' element={<About />}>
+                    <Route path='https://www.duluclearning.com/about' element={<About />}>
                     </Route>
-                    <Route path='/contact' element={<Contact />}>
+                    <Route path='https://www.duluclearning.com/contact' element={<Contact />}>
                     </Route>
-                    <Route path='/services' element={<Services />}>
+                    <Route path='https://www.duluclearning.com/services' element={<Services />}>
                     </Route>
                 </Routes>
             </BrowserRouter>
